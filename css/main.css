@@ -1,0 +1,10 @@
+body * {
+	box-sizing: border-box;
+	font-family: 'Karla', sans-serif;
+}
+
+.banner {
+	background-image: url("../images/image1.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
