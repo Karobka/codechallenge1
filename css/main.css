@@ -64,13 +64,12 @@ table {
 }
 
 
-header {
-	float: left;
+.theheader {
 	background-color: #f9f9f9;
 	width: 100%;
 	box-shadow: 0 2px 5px rgba(0,0,0,0.26);
 }
-header h2 {
+.theheader h2 {
 	padding-top: 10px;
 	padding-bottom: 8px;
 	padding-left: 32px;
@@ -78,14 +77,19 @@ header h2 {
 	display: inline-block;
 	font-size: 20px;
 }
-header a {
+.theheader a {
 	float: right;
 	text-decoration: none;
 	padding-top: 13px;
 	padding-bottom: 8px;
 	padding-right: 32px;
 }
-
+.sectiontwo-head,
+footer,
+.theheader h2,
+.theheader a{
+	color: #3e3e3e;
+}
 .headlines {
 	width: 50%;
 	padding-top: 16%;
@@ -128,16 +132,7 @@ h1 {
 	font-weight: 100;
 	margin-top: 6em;
 }
-.sectiontwo-head,
-footer,
-header h2,
-header a{
-	color: #3e3e3e;
-}
 
-.containment {
-	position: relative;
-}
 .overlay-lines {
 	height: 430px;
 	width: 200px;
