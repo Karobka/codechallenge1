@@ -76,12 +76,10 @@ header h2 {
 	padding-left: 32px;
 	font-weight: 400;
 	display: inline-block;
-	color: #3e3e3e;
 }
 header a {
 	float: right;
 	text-decoration: none;
-	color: #3e3e3e;
 	padding-top: 13px;
 	padding-bottom: 8px;
 	padding-right: 32px;
@@ -124,12 +122,18 @@ h1 {
 	font-weight: 400;
 	margin-top: 6em;
 }
+.sectiontwo-head,
+footer,
+header h2{
+	color: #3e3e3e;
+}
+
 .containment {
 	position: relative;
 }
 .overlay-lines {
 	height: 430px;
-	width: 848px;
+	width: 200px;
 	margin-top: 145px;
 	margin-left: 180px;
 	position: absolute;
@@ -137,7 +141,7 @@ h1 {
 }
 .overlay-lines2 {
 	height: 430px;
-	width: 848px;
+	width: 200px;
 	margin-top: -20px;
 	margin-left: 945px;
 	position: absolute;
@@ -161,6 +165,7 @@ footer li {
 }
 footer h2 {
 	margin-bottom: 5px;
+	letter-spacing: 2px;
 }
 
 
