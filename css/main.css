@@ -64,13 +64,13 @@ table {
 }
 
 
-.headerbar {
+.navbar {
 	background-color: #f9f9f9;
 	width: 100%;
 	box-shadow: 0 2px 5px rgba(0,0,0,0.26);
 	z-index: 11;
 }
-.headerbar h2 {
+.navbar h2 {
 	padding-top: 10px;
 	padding-bottom: 8px;
 	padding-left: 32px;
@@ -78,7 +78,7 @@ table {
 	display: inline-block;
 	font-size: 20px;
 }
-.headerbar a {
+.navbar a {
 	float: right;
 	text-decoration: none;
 	padding-top: 13px;
@@ -87,8 +87,8 @@ table {
 }
 .sectiontwo-head,
 footer,
-.headerbar h2,
-.headerbar a{
+.navbar h2,
+.navbar a{
 	color: #3e3e3e;
 }
 .headlines {
