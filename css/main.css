@@ -92,11 +92,12 @@ footer,
 	color: #3e3e3e;
 }
 .headlines {
-	width: 50%;
-	padding-top: 16%;
-	padding-left: 4%;
-	color: #f9f9f9;
+	width: 512px;
+	color: #f9f9f9 ;
 	float: right;
+	vertical-align: middle;
+	clear: both;
+	margin-top: 195px;
 }
 .headlines-words {
 	padding-bottom: 15px;
