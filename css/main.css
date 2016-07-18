@@ -60,11 +60,8 @@ table {
 }
 
 /** for tablets **/
-@media screen and (max-height: 638px) {
-	.navbar {
-		position: fixed;
-		bottom: 0px;
-	}
+@media screen and (min-width: 600px) {
+	
 }
 
 /** for mobile phones **/
