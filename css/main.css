@@ -133,17 +133,13 @@ h1 {
 	font-weight: 100;
 	margin-top: 6em;
 }
-.containment {
-	max-width: 38em;
-	margin-left: auto;
-	margin-right: auto;
-}
+
 
 .overlay-lines {
 	height: 430px;
 	width: 200px;
 	margin-top: 145px;
-	margin-left: 180px;
+	margin-left: -31px;
 	position: absolute;
 	z-index: 10;
 }
@@ -151,7 +147,7 @@ h1 {
 	height: 430px;
 	width: 200px;
 	margin-top: -20px;
-	margin-left: 945px;
+	margin-left: 750px;
 	position: absolute;
 }
 .section-background {

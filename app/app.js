@@ -1,15 +1,15 @@
 "use strict";
 
 $(document).ready(function(){
-	var headerposition = $(".theheader").offset().top;
+	var headerposition = $(".headerbar").offset().top;
 	$(window).scroll(function() {
 		if ($(window).scrollTop() > headerposition) {
-			$(".theheader").css({
+			$(".headerbar").css({
 				position: 'fixed',
 				top: '0px'
 			});
 		}else {
-			$(".theheader").css({
+			$(".headerbar").css({
 				position: 'static',
 				top: '0px'
 			});
