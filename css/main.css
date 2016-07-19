@@ -60,6 +60,7 @@ table {
 	background-position: center;
 	background-size: cover;
 	height: 600px;
+	position: relative;
 }
 
 
@@ -129,7 +130,9 @@ h1 {
 }
 .tester {
 	text-align: center;
-
+	position: absolute;
+	bottom: 0;
+	left: 50%;
 }
 .sectiontwo-head {
 	text-align: center;
