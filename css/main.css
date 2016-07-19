@@ -178,28 +178,21 @@ footer h2 {
 /** for mobile devices **/
 @media screen and (max-width: 600px) {
 	.headlines {
-		width: auto;
-		color: #a1a1f3;
-		vertical-align: middle;
+		width: 357px;
+		margin-left: auto;
+		margin-right: auto;
 	}
-
-	.headlines-words {
-	}
-
 	.btn-div {
 		text-align: center;
 	}
-	
-	body {
-        background-color: lightgreen;
-    }
+	.btn-alt {
+		display: block;
+	}
 }
 /** for tablets **/
 @media screen and (max-width: 970px) {
 	.headlines {
-		vertical-align: middle;
 		display: inline-block;
-		float: none;
 		width: auto;
 		margin-left: auto;
 		margin-right: auto;
