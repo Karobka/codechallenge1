@@ -54,22 +54,6 @@ table {
 	font-family: 'Karla', sans-serif;
 }
 
-/** for mobile devices **/
-@media screen and (min-width: 768px) {
-
-}
-
-/** for tablets **/
-@media screen and (min-width: 600px) {
-	
-}
-
-/** for mobile phones **/
-@media screen and (){
-	
-}
-
-
 .banner {
 	background: linear-gradient(to bottom, rgba(0, 11, 65, 0) 0%, rgba(0, 11, 65, 0.5) 36%, rgba(0,4,51,0.84) 90%),   url("../images/image1.jpg") no-repeat;
 	background-repeat: no-repeat;
@@ -116,6 +100,7 @@ footer,
 }
 .headlines-words {
 	padding-bottom: 15px;
+	width: 504px
 }
 .headlines-words p {
 	margin-top: 15px;
@@ -139,6 +124,8 @@ h1 {
 }
 .down-arrow {
 	color: #f9f9f9;
+	margin-left: auto;
+	margin-right: auto;
 }
 .tester {
 	text-align: center;
@@ -188,4 +175,37 @@ footer h2 {
 }
 
 
+/** for mobile devices **/
+@media screen and (max-width: 600px) {
+	.headlines {
+		width: auto;
+		color: #a1a1f3;
+		vertical-align: middle;
+	}
 
+	.headlines-words {
+	}
+
+	.btn-div {
+		text-align: center;
+	}
+	
+	body {
+        background-color: lightgreen;
+    }
+}
+/** for tablets **/
+@media screen and (max-width: 970px) {
+	.headlines {
+		vertical-align: middle;
+		display: inline-block;
+		float: none;
+		width: auto;
+		margin-left: auto;
+		margin-right: auto;
+
+	}
+	.headlines-words {
+		width: 398px;
+	}
+}
